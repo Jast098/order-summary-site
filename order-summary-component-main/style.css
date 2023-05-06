@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-display: optional;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  min-height: 38rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  margin-block-end: 1rem;
+  font-size: 1.7rem;
+}
+
+p,
+h2 {
+  font-size: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.1rem;
+}
+h2 {
+  text-align: center;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+section {
+  margin-right: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.Payment-button {
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(258, 82%, 55%);
+  display: inline-block;
+  border-radius: 1rem;
+  padding: 0.9rem 0.8rem 0.8rem;
+  margin-left: 4rem;
+  margin-block-end: 1rem;
+  width: 20rem;
+  border: 0.13rem solid hsl(258, 82%, 55%);
+  box-shadow: 0 1rem 1rem hsl(0, 4%, 86%);
+}
+
+.Cancel-button {
+  border: none;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  margin-left: 11rem;
+}
+
+.Change-button {
+  margin-left: 3rem;
+}
+
+.hero-img {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  margin-block-end: 2em;
+  width: 28rem;
+}
+
+.icon {
+  float: left;
+  margin-right: 3rem;
+  margin-left: 0.4rem;
+}
+
+.content-box {
+  background-color: hsl(0, 0%, 100%);
+  margin: 7rem;
+  width: 28rem;
+  min-height: 40rem;
+  border-radius: 1rem;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  position: absolute;
+  top: 38%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.plan-box {
+  background-color: hsl(225, 100%, 98%);
+  width: 20em;
+  min-height: 6rem;
+  border-radius: 0.5rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-block-end: 1rem;
+}
+
+.text-center {
+  margin-left: 3rem;
+}
